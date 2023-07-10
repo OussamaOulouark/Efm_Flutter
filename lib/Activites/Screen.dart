@@ -45,6 +45,25 @@ class Screen extends StatelessWidget {
                           ),
                         ],
                       ),
+                      Row(
+                        children: [
+                          ElevatedButton(
+                            onPressed: () {
+                              // Handle left button press
+                            },
+                            child: const Text('back'),
+                          ),
+                          SizedBox(width: 10.0), // Add space between the buttons and text
+                          Text(''),
+                          SizedBox(width: 10.0), // Add space between the buttons and text
+                          ElevatedButton(
+                            onPressed: () {
+                              // Handle right button press
+                            },
+                            child: const Text('next'),
+                          ),
+                        ],
+                      ),
                     ],
                   ),
                 ),
